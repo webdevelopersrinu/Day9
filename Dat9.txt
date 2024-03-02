@@ -1,0 +1,15 @@
+1)Space complexity:-
+Space complexity refers to the amount of memory space an algorithm requires to solve a problem as a function of the input size. It encompasses both the auxiliary space (space used by the algorithm itself) and the input space (space required to store the input).
+
+2) time and space complexity of list data type in python:-
+
+most basic operations like accessing an element by index or adding an element to the end are really fast and take constant time, denoted as O(1). However, certain operations such as removing an element from the end or deleting an element by index can take longer, especially if they involve shifting elements around, and can have a time complexity of O(n), where n is the number of elements in the list.
+
+3)time and space complexity of set data type in python:-
+
+such as adding, removing, or checking member  is O(1).The space complexity of a set data type in Python is O(n), where n is the number of elements in the set.
+
+4) what is hashing and how to work it:-
+
+Hashing is a process used in computer science to convert input data (such as text or numbers) into a fixed-size string of characters, typically a hexadecimal number. It's commonly used in data structures like hash tables for fast data retrieval. A hashing function takes an input (or "key") and generates a unique output (or "hash value") based on specific rules. This hash value can then be used to quickly look up or compare data without having to search through all possible inputs. Hashing works by applying a mathematical algorithm to the input data, resulting in a hash value that is typically unique to that input. The key properties of a good hashing function include producing unique hash values for different inputs, being deterministic (i.e., producing the same hash value for the same input), and being efficient to compute.
+
